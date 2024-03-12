@@ -1,0 +1,8 @@
+Burt Cockley
+Megi Luka
+
+Here's my explanation for how I found this challenge pair...
+
+First, I found the person in the graph with the most successors (Highest out degree). This was Burt Cockley.
+Then, I split the set of all keys into 25 sublists of keys. Then I found the shortest path from Burt to all of the keys,
+using 25 threads, one for each sublist. This led me to the pair.
